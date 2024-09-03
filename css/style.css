@@ -1,0 +1,109 @@
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Roboto+Mono&display=swap');
+*/
+
+@font-face
+{
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/Cinzel/Cinzel-Regular.otf');
+}
+
+@font-face
+{
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/Dancing/DancingScript-Regular.otf');
+}
+
+@font-face
+{
+    font-family: 'Cascadia';
+    font-weight: 400;
+    font-style: normal;
+    src: url('fonts/cascadia-code/Cascadia.ttf');
+}
+
+.p-summary {
+  position: absolute;
+  top: 20%;
+  left: 37.3%;
+  z-index: 2;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+.p-summary #clock {
+  font-family: cursive;
+  margin: 20px;
+  font-size: 3em;
+}
+.p-summary #day {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+  line-height: .3em;
+  transform: rotate(-4deg);
+  height: .4em;
+  opacity: .7;
+  margin: 20px;
+}
+.p-summary #date {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  margin: 20px;
+}
+
+/*----------------------------------*/
+
+.buttonClick {
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: cursive;
+  border: solid #5c5c5c 1px;
+  font-size: 16px;
+  color: rgb(247, 247, 247);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #424141);
+  -webkit-box-shadow: -1px -5px 15px #a2a2a2, 5px 5px 15px #a2a2a2,
+    inset 5px 5px 10px #a2a2a2, inset -5px -5px 10px #a2a2a2;
+  box-shadow: -1px -5px 15px #a2a2a2, 5px 5px 15px #a2a2a2,
+    inset 5px 5px 10px #424141, inset -5px -5px 10px #424141;
+}
+
+.buttonClick:hover {
+  -webkit-box-shadow: 1px 1px 13px #181818, -1px -1px 13px #181818;
+  box-shadow: 1px 1px 13px #181818, -1px -1px 13px #181818;
+  color: #ffffff;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.buttonClick:active {
+  -webkit-box-shadow: 1px 1px 13px #000000, -1px -1px 33px #000000;
+  box-shadow: 1px 1px 13px #000000, -1px -1px 33px #000000;
+  color: rgb(154, 154, 154);
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
